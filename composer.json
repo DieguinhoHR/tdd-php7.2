@@ -1,0 +1,21 @@
+{
+    "name": "root/conta",
+    "description": "teste com tdd",
+    "authors": [
+        {
+            "name": "Diego",
+            "email": "diego_henriquerodrigues@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
